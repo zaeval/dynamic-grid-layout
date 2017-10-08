@@ -1,18 +1,29 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="./static/css/digl.css"/>
-        <script src="./static/js/digl.js"></script>
-    </head>
-    <body>
-        <div id="digl_wrapper">
-            <div id="digl">
-            </div>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/css/digl.css" />
+    <script src="./static/js/digl.js"></script>
+</head>
+
+<body>
+    <div id="digl_wrapper">
+        <div id="digl">
         </div>
-        <script>
-            init();
-            initObjs(['static/img/01.jpg','static/img/02.jpg','static/img/03.jpg','static/img/04.jpg','static/img/05.jpg','static/img/06.jpg']);
-        </script>
-    </body>
+    </div>
+    <script>
+        var args = {
+            containSize: "444px",
+            objSize: "200px",
+            containObjId: "digl",
+            wrapperObjId: "digl_wrapper",
+            gab: "5px",
+        };
+        var digl = new Digl('444px', '200px'); //first arg : wrapper size, second arg : obj size
+        digl.pushObjs(['static/img/01.jpg', 'static/img/02.jpg', 'static/img/03.jpg', 'static/img/04.jpg', 'static/img/05.jpg', 'static/img/06.jpg']);
+
+    </script>
+</body>
+
 </html>

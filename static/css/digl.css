@@ -21,16 +21,24 @@
 .img_container {
     display: inline-block;
     float: left;
-    margin-left:5px;
-    margin-top: 5px;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-    break-inside: avoid;
-    
+    break-inside: avoid;   
+}
+#digl span{
+    font-size: medium;
+    letter-spacing: normal;
+    word-spacing: normal;
 }
 #digl{
-    column-gap: 0px;
+    margin: auto;
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
 }
 #digl_wrapper{
     overflow-y: scroll;
+}
+body,html{
+    margin: 0;
 }
