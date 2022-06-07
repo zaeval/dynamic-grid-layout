@@ -83,4 +83,4 @@ gap : column & row gap
 >default value : (contain_width - scroll_width - column * object_width) / gap_num 
     
 # 2022-06-07
-In css masonry layout supported. so this repository is not helful.
+In css masonry layout supported. so this repository is not helpful.
